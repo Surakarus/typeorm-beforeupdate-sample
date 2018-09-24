@@ -1,0 +1,24 @@
+{
+   "name": "example",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.ts",
+   "scripts": {
+      "build": "node_modules/.bin/tsc",
+      "start": "npm run build && node ./build/index.js"
+   },
+   "dependencies": {
+      "esm": "^3.0.84",
+      "mysql": "^2.14.1",
+      "pg": "^7.4.3",
+      "reflect-metadata": "^0.1.12",
+      "typeorm": "0.2.7"
+   },
+   "devDependencies": {
+      "@types/node": "^8.0.29",
+      "ts-node": "3.3.0",
+      "typescript": "2.5.2"
+   },
+   "author": "",
+   "license": "ISC"
+}
